@@ -9,8 +9,8 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/util"
 	"gopkg.in/yaml.v2"
 )
 

@@ -11,8 +11,8 @@ import (
 	getter "github.com/hashicorp/go-getter"
 	urlhelper "github.com/hashicorp/go-getter/helper/url"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/util"
 )
 
 var forcedRegexp = regexp.MustCompile(`^([A-Za-z0-9]+)::(.+)$`)

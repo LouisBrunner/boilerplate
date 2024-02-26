@@ -18,10 +18,10 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/util"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/variables"
 	"gopkg.in/yaml.v2"
 )
 
@@ -255,7 +255,8 @@ func include(templatePath string, opts *options.BoilerplateOptions, path string,
 // Example:
 //
 // pathRelativeToTemplate("/foo/bar/template-file.txt, "../src/code.java")
-//   Returns: "/foo/src/code.java"
+//
+//	Returns: "/foo/src/code.java"
 func PathRelativeToTemplate(templatePath string, filePath string) string {
 	if path.IsAbs(filePath) {
 		return filePath

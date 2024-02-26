@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gruntwork-io/boilerplate/cli"
-	"github.com/gruntwork-io/boilerplate/config"
 	"github.com/gruntwork-io/go-commons/errors"
 	"github.com/gruntwork-io/go-commons/version"
+	"github.com/louisbrunner/boilerplate/cli"
+	"github.com/louisbrunner/boilerplate/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

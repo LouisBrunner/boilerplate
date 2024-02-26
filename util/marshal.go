@@ -3,7 +3,7 @@ package util
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/errors"
 	"gopkg.in/yaml.v2"
 )
 

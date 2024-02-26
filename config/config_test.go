@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/variables"
 
 	// NOTE: we use this library to format the yaml to a standard format that lexicographically sorts the dictionary
 	// keys to make comparisons more robust. We should not however use it in the CLI itself because it does not make the

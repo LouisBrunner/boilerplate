@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 func TestGetVariableFromVarsEmptyVars(t *testing.T) {

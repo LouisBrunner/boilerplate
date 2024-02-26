@@ -3,8 +3,8 @@ package variables
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/util"
 )
 
 // A single engine entry, which specifies which template engine should be used to render the given files grabbed by the
@@ -12,7 +12,6 @@ import (
 //
 // - Go template (default)
 // - Jsonnet
-//
 type Engine struct {
 	Path           string             `yaml:"path"`
 	TemplateEngine TemplateEngineType `yaml:"template_engine"`

@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gruntwork-io/go-commons/entrypoint"
 
-	"github.com/gruntwork-io/boilerplate/cli"
+	"github.com/louisbrunner/boilerplate/cli"
 )
 
 // The main entrypoint for boilerplate

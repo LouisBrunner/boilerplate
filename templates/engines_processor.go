@@ -3,9 +3,9 @@ package templates
 import (
 	"path/filepath"
 
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/util"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 type ProcessedEngine struct {

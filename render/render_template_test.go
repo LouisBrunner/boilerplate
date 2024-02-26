@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gruntwork-io/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/options"
 )
 
 const EMBED_WHOLE_FILE_TEMPLATE = `

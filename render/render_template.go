@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"text/template"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
 	"github.com/hashicorp/go-multierror"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
 )
 
 const MaxRenderAttempts = 15

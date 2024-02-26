@@ -2,20 +2,21 @@ package templates
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/go-commons/collections"
 	"net/url"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
 
-	"github.com/gruntwork-io/boilerplate/config"
-	"github.com/gruntwork-io/boilerplate/errors"
-	getter_helper "github.com/gruntwork-io/boilerplate/getter-helper"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/render"
-	"github.com/gruntwork-io/boilerplate/util"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/gruntwork-io/go-commons/collections"
+
+	"github.com/louisbrunner/boilerplate/config"
+	"github.com/louisbrunner/boilerplate/errors"
+	getter_helper "github.com/louisbrunner/boilerplate/getter-helper"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/render"
+	"github.com/louisbrunner/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 // The name of the variable that contains the current value of the loop in each iteration of for_each

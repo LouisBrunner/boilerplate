@@ -5,9 +5,9 @@ import (
 
 	jsonnet "github.com/google/go-jsonnet"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/util"
 )
 
 // The following variables need to be stripped as it can't be rendered into json.
@@ -21,7 +21,6 @@ var incompatibleVariables = []string{
 //
 // - templateFolder
 // - outputFolder
-//
 func RenderJsonnetTemplate(
 	templatePath string,
 	variables map[string]interface{},

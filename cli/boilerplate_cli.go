@@ -7,9 +7,9 @@ import (
 	"github.com/gruntwork-io/go-commons/version"
 	"github.com/urfave/cli/v2"
 
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/templates"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/templates"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 const customHelpText = `Usage: {{.UsageText}}

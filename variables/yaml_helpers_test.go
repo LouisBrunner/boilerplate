@@ -7,7 +7,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/errors"
 	"github.com/stretchr/testify/assert"
 )
 

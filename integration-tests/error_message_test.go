@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gruntwork-io/boilerplate/cli"
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/cli"
+	"github.com/louisbrunner/boilerplate/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

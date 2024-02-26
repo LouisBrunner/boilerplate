@@ -9,7 +9,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/inancgumus/screen"
 
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/errors"
 )
 
 var BRIGHT_GREEN = color.New(color.FgHiGreen, color.Bold)

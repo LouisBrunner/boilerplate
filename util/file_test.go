@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/errors"
 )
 
 func TestIsTextFile(t *testing.T) {

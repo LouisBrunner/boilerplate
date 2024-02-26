@@ -1,7 +1,7 @@
 package variables
 
 import (
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/util"
 )
 
 // A single hook, which is a command that is executed by boilerplate

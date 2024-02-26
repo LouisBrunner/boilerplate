@@ -8,8 +8,8 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package variables
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/errors"
 )
 
 // An enum that represents the types we support for boilerplate variables

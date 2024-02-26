@@ -11,10 +11,10 @@ import (
 	goversion "github.com/hashicorp/go-version"
 	"gopkg.in/yaml.v2"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/util"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 const BOILERPLATE_CONFIG_FILE = "boilerplate.yml"
@@ -41,10 +41,10 @@ func (config *BoilerplateConfig) GetVariablesMap() map[string]variables.Variable
 
 // Implement the go-yaml unmarshal interface for BoilerplateConfig. We can't let go-yaml handle this itself because:
 //
-// 1. Variable is an interface
-// 2. We need to provide Defaults for optional fields, such as "type"
-// 3. We want to validate the variable as part of the unmarshalling process so we never have invalid Variable or
-//    Dependency classes floating around
+//  1. Variable is an interface
+//  2. We need to provide Defaults for optional fields, such as "type"
+//  3. We want to validate the variable as part of the unmarshalling process so we never have invalid Variable or
+//     Dependency classes floating around
 func (config *BoilerplateConfig) UnmarshalYAML(unmarshal func(interface{}) error) error {
 	var fields map[string]interface{}
 	if err := unmarshal(&fields); err != nil {

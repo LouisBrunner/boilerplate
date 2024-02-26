@@ -5,9 +5,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	getter_helper "github.com/gruntwork-io/boilerplate/getter-helper"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	getter_helper "github.com/louisbrunner/boilerplate/getter-helper"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 const OptTemplateUrl = "template-url"

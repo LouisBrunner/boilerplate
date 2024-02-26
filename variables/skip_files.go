@@ -1,6 +1,6 @@
 package variables
 
-import "github.com/gruntwork-io/boilerplate/errors"
+import "github.com/louisbrunner/boilerplate/errors"
 
 // A single skip_file entry, which is a file that (conditionally) should be excluded from the rendered output.
 type SkipFile struct {

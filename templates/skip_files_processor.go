@@ -5,11 +5,11 @@ import (
 
 	zglob "github.com/mattn/go-zglob"
 
-	"github.com/gruntwork-io/boilerplate/errors"
-	"github.com/gruntwork-io/boilerplate/options"
-	"github.com/gruntwork-io/boilerplate/render"
-	"github.com/gruntwork-io/boilerplate/util"
-	"github.com/gruntwork-io/boilerplate/variables"
+	"github.com/louisbrunner/boilerplate/errors"
+	"github.com/louisbrunner/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/render"
+	"github.com/louisbrunner/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/variables"
 )
 
 type ProcessedSkipFile struct {

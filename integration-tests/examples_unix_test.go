@@ -12,8 +12,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gruntwork-io/boilerplate/options"
 	"github.com/gruntwork-io/terratest/modules/git"
+	"github.com/louisbrunner/boilerplate/options"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/go-getter"
 
-	"github.com/gruntwork-io/boilerplate/util"
+	"github.com/louisbrunner/boilerplate/util"
 )
 
 // A custom getter.Getter implementation that uses file copying instead of symlinks. Symlinks are

@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/boilerplate
+module github.com/louisbrunner/boilerplate
 
 go 1.18
 

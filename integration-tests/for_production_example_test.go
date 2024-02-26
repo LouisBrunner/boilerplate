@@ -8,7 +8,7 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/boilerplate/options"
+	"github.com/louisbrunner/boilerplate/options"
 )
 
 func TestForProductionTerragruntArchitectureBoilerplateExample(t *testing.T) {
